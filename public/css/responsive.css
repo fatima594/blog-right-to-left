@@ -1,0 +1,57 @@
+.owl-nav {
+    position: absolute;
+    top: -83px;
+    right: 1%;
+}
+/* المزيد من أكواد Owl Carousel */
+
+/* الأكواد الخاصة بتحسين الاستجابة (Responsive CSS) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+button, a {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .post-title {
+        font-size: 16px; /* تقليل حجم النص لتناسب الشاشات الصغيرة */
+    }
+
+    .fh5co_hover_news_img img {
+        width: 100%; /* اجعل الصورة تتكيف مع عرض الشاشة */
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .post-title {
+        font-size: 14px; /* تقليل حجم النص أكثر للشاشات الصغيرة جدًا */
+    }
+
+    .fh5co_hover_news_img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+}

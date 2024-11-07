@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .padding_786 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .fh5co_mediya_setting {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .trending_btn {
+        background: #f5bc04;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        padding: 5px 40px;
+    }
+    .fh5co_treding_position_absolute {
+        display: none;
+    }
+    .fh5co_mediya_center {
+        text-align: center;
+    }
+    .fh5co_logo_width {
+        display: none !important;
+    }
+    .fh5co_mediya_right {
+        text-align: center !important;
+    }
+    .fh5co_padding_menu {
+        padding: 0;
+        padding-top: 10px;
+    }
+    .mobile_logo_width {
+        max-width: 100px; /* استخدم max-width بدلاً من width */
+        width: 300%; /* تأكد من أن الصورة تأخذ العرض المتاح */
+        display: block !important;
+        margin: 0 auto; /* لجعل الصورة في الوسط */
+        padding-bottom: 20px;
+    }
+    .navbar-brand {
+        width: 150%;
+        display: flex;
+        justify-content: flex-start; /* محاذاة الشعار لليسار */
+    }
+    .fh5co_padd_mediya {
+        padding-top: 0;
+    }
+    .fh5co_display_table {
+        height: 25px;
+        width: 25px;
+        display: table;
+        color: #777;
+        font-size: 18px;
+        border: 1px solid #fff !important;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: 1s;
+        margin: 0 10px;
+        color: #777 !important;
+    }
+    .fh5co_conty_width {
+        margin-top: 10px;
+    }
+    .fh5co_good_font {
+        font-size: 16px;
+    }
+    .fh5co_good_font_2 {
+        font-size: 14px;
+    }
+    .fh5co_suceefh5co_height_2,
+    .fh5co_suceefh5co_height {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    .fh5co_suceefh5co_height_2 {
+        height: 200px;
+    }
+    .fh5co_suceefh5co_height_2 > img,
+    .fh5co_suceefh5co_height > img {
+        height: auto;
+        width: 100%;
+    }
+    .fh5co_suceefh5co_height_position_absolute_font {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        z-index: 7;
+        top: 60%;
+        left: 5%;
+        padding: 0 10px;
+    }
+    .fh5co_footer_bg {
+        background: #222;
+        color: #fff;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .spdp_right {
+        text-align: center;
+    }
+    .footer_img_post_6 {
+        height: 30px;
+        width: 50px;
+        overflow: hidden;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+    .footer_img_post_6 > img {
+        width: 50px;
+        height: 30px;
+    }
+    .Reserved {
+        text-align: center;
+    }
+    .btn_mange_pagging,
+    .btn_pagging {
+        background: #f1f1f1 !important;
+        color: #222;
+        padding: 12px 10px !important;
+        font-weight: 800;
+        margin: 0 5px;
+        transition: 0.5s;
+        font-size: 12px;
+    }
+    .btn_mange_pagging:hover,
+    .btn_mange_pagging:focus,
+    .btn_pagging:hover,
+    .btn_pagging:focus {
+        background: #222;
+        color: #fff !important;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .fh5co_latest_trading_img {
+        height: 226px;
+    }
+    .fh5co_latest_trading_img > img {
+        height: 240px;
+    }
+    .fh5co_img_special_relative {
+        right: 0;
+    }
+    .fh5co_logo_width {
+        display: block; /* اجعلها block لعرض الصورة */
+        margin: 0 auto; /* اجعلها في الوسط */
+    }
+    .mobile_logo_width {
+        width: 400px;
+        display: block !important;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .dropdown-item {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fh5co_mediya_center {
+        font-size: 12px;
+    }
+    .fh5co_logo_width {
+        display: none;
+    }
+    .fh5co_mediya_right {
+        padding-top: 20px;
+    }
+    .fh5co_good_font {
+        font-size: 18px;
+    }
+    .fh5co_good_font_2 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+    .mobile_logo_width {
+        display: none;
+    }
+    .fh5co_logo_width {
+        display: block;
+    }
+    .fh5co_good_font {
+        font-size: 20px;
+    }
+    .fh5co_good_font_2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #slider2 .item {
+        width: 100%; /* اجعل العرض يناسب الهاتف */
+        padding: 5px; /* لتقليل المسافات بين العناصر */
+    }
+    #slider2 .item img {
+        width: 80px; /* عرض الصورة لتناسب الهاتف */
+        height: 40px; /* ارتفاع مناسب */
+    }
+    #slider2 .post-title span {
+        font-size: 12px; /* تصغير حجم الخط لعناوين المقالات */
+    }
+    .owl-carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .owl-carousel .item {
+        scroll-snap-align: start;
+        padding: 0 10px; /* تقليل الحواف بين العناصر */
+    }
+}
+
+@media (max-width: 380px) {
+    .fh5co_latest_trading_img img {
+        width: 100%; /* عرض الصورة بحيث تأخذ المساحة المتاحة كاملة */
+        height: auto; /* جعل الارتفاع يتناسب تلقائيًا */
+    }
+    .fh5co_latest_trading_img_position_relative {
+        padding: 0; /* تقليل الحواف */
+    }
+    .post-title {
+        font-size: 16px; /* تقليل حجم الخط للعناوين */
+        margin-top: 8px; /* زيادة الفراغ بين العنوان والتاريخ */
+    }
+    .fh5co_latest_trading_date_and_name_color {
+        font-size: 10px; /* تقليل حجم النص للتاريخ */
+    }
+    /* تحسين محاذاة الشعار على الأجهزة المحمولة */
+    .mobile_logo_width {
+        width: 100px; /* عرض أصغر للشعار على الهاتف */
+        height: auto;
+        position: relative;
+        top: -35px; /* تعديل الرقم حسب الحاجة لرفع الشعار */
+
+
+    }
+
+    /* لأجهزة الشاشات الصغيرة جدًا (أقل من 400 بكسل) */
+    @media (max-width: 400px) {
+        .mobile_logo_width {
+            width: 100px; /* عرض أصغر للشعار على الهاتف */
+            height: auto;
+        }
+            position: relative;
+            top: -8px; /* رفع أكثر قليلاً للشعار */
+        }
+    }
+
+    /* لأجهزة سامسونغ وبعض الهواتف التي تتطلب تنسيقًا أدق */
+    @media screen and (min-device-width: 360px) and (max-device-width: 412px) {
+        .mobile_logo_width {
+            width: 100px; /* عرض أصغر للشعار على الهاتف */
+            height: auto;
+            position: relative;
+            top: -35px; /* تنسيق دقيق لأجهزة سامسونغ */
+        }
+
+    /* ضبط ارتفاع وحجم عناصر القائمة */
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+        color: #333;
+
+    }
+
+
+
+    /* تحسين تفاعل الأزرار عند التحويم */
+    .navbar-toggler {
+        border: none;
+        margin-buttom: 20px;
+
+
+
+    }
+    /* تثبيت التنقل عند الفتح */
+    .navbar-collapse.show {
+        overflow: hidden;
+        /*position: fixed;*/
+        left: 0; /* إذا كنت تريد القائمة أن تظهر من الجهة اليمنى */
+
+        background-color: rgba(255, 255, 255, 0.9); /* لون خلفية خفيف للقائمة */
+        z-index: 1050; /* حتى يظهر الشريط فوق بقية المحتويات */
+        margin-buttom:20px;
+
+    }
+
+
+
+
+
+    /* تعطيل التمرير عند فتح القائمة */
+    .no-scroll {
+        overflow: hidden;
+    }
+
+
+
+    }
+
+
+
